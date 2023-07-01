@@ -149,6 +149,27 @@ section {
 	background-size: cover;
 }
 
+@media (max-width: 720px) {
+	.hero {
+		height: calc(70vh - 4rem);
+		width: 100%;
+		background-image: url(./images/background-img.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+@media (max-width: 450px) {
+	.hero {
+		height: calc(45vh - 4rem);
+		width: 100%;
+		background-image: url(./images/background-img.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
 .section--title {
 	color: var(--secondary);
 	font-size: 2rem;
@@ -156,6 +177,7 @@ section {
 }
 p {
 	color: var(--primary);
+	line-height: 200%;
 }
 
 h2 {
