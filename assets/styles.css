@@ -279,6 +279,10 @@ h2 {
 	color: var(--primary);
 }
 
+.ed {
+	font-weight: 400;
+}
+
 .portfolio div ul > .experience {
 	display: flex;
 	flex-direction: row;
