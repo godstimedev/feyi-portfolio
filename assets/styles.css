@@ -130,7 +130,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	font-size: 1rem;
+	font-size: 0.875rem;
 	/* line-height: 120%; */
 }
 
@@ -184,6 +184,11 @@ h2 {
 	color: var(--primary);
 }
 
+.about p a {
+	display: block;
+	text-decoration: underline;
+}
+
 .contact > div:first-child {
 	display: flex;
 	flex-direction: column;
@@ -211,6 +216,10 @@ h2 {
 }
 
 /* portfolio resume page  */
+
+/* .portfolio {
+	
+} */
 
 .portfolio div {
 	text-align: start;
@@ -259,6 +268,15 @@ h2 {
 }
 
 /* strategic page  */
+
+.bg-img {
+	height: calc(80vh - 4rem);
+	width: 100%;
+	background-image: url(./images/img3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .strategic {
 	text-align: start;
